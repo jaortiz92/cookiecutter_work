@@ -78,3 +78,7 @@ Son tareas que se ejecutan antes o despues de crear el proyecto
 3. Escribir instrucciones en los dos archivos para que se ejecuten antes o despues de las creaciones
 
 #### Cargar Repositorio
+1. Crear repositorio en git hub
+2. Crear el archivo .gitkeep para las carpetas vacias, con el fin de que git cree las carpetas
+3. Inicializar repositorio y crear el primer commit
+4. Crear la coneccion con git hub y cargarlo
