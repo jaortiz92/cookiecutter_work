@@ -82,3 +82,10 @@ Son tareas que se ejecutan antes o despues de crear el proyecto
 2. Crear el archivo .gitkeep para las carpetas vacias, con el fin de que git cree las carpetas
 3. Inicializar repositorio y crear el primer commit
 4. Crear la coneccion con git hub y cargarlo
+5. Para usarla se debe:
+    1. Copiar ruta de github
+    2. en la terminal escribir
+        - cookiecutter url
+    
+#### Problematicas de rutas (Para diferentes Sistemas operativos)
+
