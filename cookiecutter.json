@@ -1,0 +1,8 @@
+{
+    "project_name": "Insert name project",
+    "project_title": "{{ cookiecutter.project_name.capitalize() }}",
+    "project_class": "{{ cookiecutter.project_name.capitalize().replace(' ', '').replace('-', '') }}",
+    "project_slug": "{{ cookiecutter.project_name.replace(' ', '').replace('-', '') }}",
+    "project_author_name": "Insert author name",
+    "project_description": "Creador de proyectos"
+}
