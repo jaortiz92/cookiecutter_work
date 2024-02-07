@@ -32,9 +32,12 @@ Manejador de plantillas multiplataforma
     - Para guardas informacion de que debe instalar para instalar en otros equipos
 #### Crear crear proyecto desde una plantilla
 - Crear proyecto desde otra plantilla ya creada en github
-    - cookiecutter https://github.com/platzi/curso-entorno-avanzado-ds --checkout cookiecutter-personal-platzi
-    - En este caso se utiliza --checkout porque la plantilla esta en una rama especifica
-    - Seguimos las instrucciones y ya podemos iniciar a trabajar
+    - cookiecutter https://github.com/jvelezmagic/cookiecutter-conda-data-science
+        - En algunos casos se utiliza --checkout porque la plantilla esta en una rama especifica
+    - Seguimos las instrucciones
+    - Si queremos crear el entorno de conda ejecutamos 
+        - conda env create --file environment.yml
+        
 
 #### Crear plantilla perzonalizada
 1. Crear carpeta
@@ -88,4 +91,16 @@ Son tareas que se ejecutan antes o despues de crear el proyecto
         - cookiecutter url
     
 #### Problematicas de rutas (Para diferentes Sistemas operativos)
+Existen varias librerias que permiten el manejo de rutas, con el fin de mantener la compatibilidad de las rutas, sin importar el sistema operativo que se este manejando.
+- os
+- pathlib
+- pyfilesystem2
+
+#### Manejo de rutas relativas
+- pyprojroot
+- pyhere
+
+#### Manejo de notebooks
+- Lo ideal de noteboooks es ir creando y probando, despues de que tengamos creadas funciones que seran fijas, estas mismas se podrian agregar a scrips de python que luego pueden ser llamados desde el notebook para tener un mejor orden.
+- Para un mejor orden de notebooks lo ideal es crear particiones donde separemos en diferentes notebooks para una mayor legibilidad. 
 
