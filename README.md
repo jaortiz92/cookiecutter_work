@@ -1,5 +1,6 @@
 ## Directories
 
+```
 ├── .gitignore                                  <- GitHub's excellent Python .gitignore customized for this project
 ├── main.py                                     <- File to run the project
 ├── README.md                                   <- The top-level README for developers using this project.
@@ -40,3 +41,5 @@
     └── visualization                           <- Scripts to create exploratory and results oriented visualizations.
     │   ├── __init__.py                         <- Makes a Python module.
         └── visualize.py                        <- Functions to do visualizations
+
+```
