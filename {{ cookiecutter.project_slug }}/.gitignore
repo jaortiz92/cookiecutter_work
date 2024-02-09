@@ -1,1 +1,13 @@
-*.xlsx
+# Data
+*xlsx
+*xlsm
+
+# Images
+*JPG
+*png
+
+# Files
+*pdf
+
+#Folder
+*__pycache__*

@@ -1,12 +1,12 @@
 import os
 import subprocess
 
-project_slug = "{{ cookiecutter.project_slug }}"
-
 ERROR_COLOR = "\x1b[31m"
 MESSAGE_COLOR = "\x1b[34m"
 RESET_ALL = "\x1b[0m"
 GOOD_COLOR = "\x1b[92m"
+
+project_slug = "{{ cookiecutter.project_slug }}"
 
 print("{}INFO: The project {} is ready!!! {}".format(
         GOOD_COLOR, project_slug, RESET_ALL

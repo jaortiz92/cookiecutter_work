@@ -1,8 +1,10 @@
 {
     "project_name": "Insert name project",
     "project_title": "{{ cookiecutter.project_name.capitalize() }}",
-    "project_class": "{{ cookiecutter.project_name.capitalize().replace(' ', '').replace('-', '') }}",
-    "project_slug": "{{ cookiecutter.project_name.replace(' ', '').replace('-', '') }}",
+    "project_class": "{{ cookiecutter.project_name.title().replace(' ', '').replace('-', '') }}",
+    "project_slug": "{{ cookiecutter.project_name.title().replace(' ', '').replace('-', '') }}",
+    "project_module_name": "{{ cookiecutter.project_slug[0].lower() + cookiecutter.project_slug[1:] }}",
     "project_author_name": "Insert author name",
-    "project_description": "Creador de proyectos"
+    "project_author_email": "Insert author email",
+    "project_description": "Project description"
 }
