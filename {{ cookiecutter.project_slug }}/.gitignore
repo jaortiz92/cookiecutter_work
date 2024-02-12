@@ -1,6 +1,7 @@
 # Data
 *xlsx
 *xlsm
+*csv
 
 # Images
 *JPG
@@ -11,3 +12,4 @@
 
 #Folder
 *__pycache__*
+*ipynb_checkpoints*
